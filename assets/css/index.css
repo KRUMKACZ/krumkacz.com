@@ -26,11 +26,11 @@ html {
 
 /* MAIN BLOCK*/
 .banner-full {
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/header.webp);
     background-position: center;
     background-size: cover;
     position: relative;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,10 +94,10 @@ html {
 
 .mouse-position {
     position: absolute;
-    min-height: 100vh;
+    min-height: 110vh;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
 }
 
 .mouse {
