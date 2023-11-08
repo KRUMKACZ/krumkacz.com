@@ -89,6 +89,8 @@ let dataCollection = document.querySelectorAll('.data_collection');
 let sizeGalleryBlock = galleryBlock.clientHeight; // Определяем размер блока с картинкой при загрузке
 console.log("Высота блока при загрузке страницы: " + sizeGalleryBlock);
 window.onresize = myScript;
+window.onload = myScript;
+
 
 function myScript() {
     sizeGalleryBlock = galleryBlock.clientHeight;
@@ -107,7 +109,7 @@ gallery.addEventListener("mouseover", (event) => {
         <div class='subtitle'><b>Description: </b>${blocks[indexClickBlock].subtitle}</div>
         <div class='price'><b>PRICE: </b>${blocks[indexClickBlock].price} ${blocks[indexClickBlock].waluta}</div>
         `;
-        dataCollection[indexClickBlock].style.transform = `translateY(-${sizeGalleryBlock * 0.5}px)`;
+        dataCollection[indexClickBlock].style.transform = `translateY(-${sizeGalleryBlock * 0.4}px)`;
     }
 
 });

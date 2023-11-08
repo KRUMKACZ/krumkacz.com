@@ -275,3 +275,34 @@ html {
 }
 
 /* FOOTER */
+
+
+@media (min-width: 576px) and (max-width: 610px) {
+    .data_collection {
+        font-size: small;
+    }
+}
+
+@media (min-width: 678px) and (max-width: 1120px) {
+    .data_collection {
+        font-size: small;
+    }
+}
+
+@media (min-width: 861px) and (max-width: 1012px) {
+    .typewriter h1 {
+        font-size: 2.1em;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 860px) {
+    .typewriter h1 {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 669px) {
+    .typewriter h1 {
+        font-size: 1.0em;
+    }
+}
