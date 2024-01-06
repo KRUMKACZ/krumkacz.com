@@ -123,7 +123,7 @@ html {
 }
 
 .mouse-position a:hover .mouse-buttom {
-    background: #e7077bf5;
+    background: #ff7300;
     top: 30%;
 }
 
@@ -269,9 +269,33 @@ html {
 
 .footer {
     display: flex;
-    height: 610px;
+    height: 410px;
     border-top: 1px solid rgb(201, 201, 201);
-    margin-top: 40px;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer .container h5 {
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+}
+
+.social-ico {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    list-style-type: none;
+}
+
+.social-ico li {
+    margin-left: 15px;
 }
 
 /* FOOTER */

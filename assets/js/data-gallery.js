@@ -16,12 +16,12 @@ const blocks = [
         material: 'Genuine Leather',
         manufacturer: 'Polish - Krumkacz',
         subtitle: 'HandMade',
-        price: '150',
+        price: '870',
         waluta: 'PLN'
     },
     {
         id: '2',
-        name: 'Classic 2',
+        name: 'Classic 3',
         size: '45 x 25 x 23',
         material: 'Genuine Leather',
         manufacturer: 'Polish - Krumkacz',
