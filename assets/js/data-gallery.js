@@ -100,7 +100,6 @@ gallery.addEventListener("mouseover", (event) => {
 
     if (event.target.classList.contains('gallery__item')) {
         let indexClickBlock = event.target.dataset.itemid;
-        console.log("Индекс: " + indexClickBlock);
         dataCollection[indexClickBlock].innerHTML = `
         <div class='name'><b>NAME: </b>${blocks[indexClickBlock].name}</div>
         <div class='size'><b>SIZE: </b>${blocks[indexClickBlock].size}</div>
